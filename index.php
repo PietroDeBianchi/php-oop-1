@@ -1,19 +1,6 @@
 <?php
 
-class Movie {
-    public $title;
-    public $director;
-    public $yearReleased;
-    public $genres;
-
-    public function __construct(string $title, string $director, int $yearReleased, array $genres) {
-        $this->title = $title;
-        $this->director = $director;
-        $this->yearReleased = $yearReleased;
-        $this->genres = $genres;
-    }
-
-}
+require  __DIR__ . '/Models/Movie.php';
 
 $movie1 = new Movie("I Simposon: Il Film", "Homer Simpson", 2012, ["Commedy", "Adventure"]);
 $movie2 = new Movie("I Goonies", "Chunk!", 1984, ["Commedy", "Thriller"]);
