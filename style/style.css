@@ -16,6 +16,7 @@ main {
 main h1 {
   color: rgb(23, 22, 22);
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 table {
