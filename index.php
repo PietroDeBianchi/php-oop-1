@@ -42,6 +42,7 @@ $movie3 = new Movie("Lord of the Ring", "Peter Jackson", 2001, ["Action", "Adven
                         echo "<td>" . $movie->title . "</td>";
                         echo "<td>" . $movie->director . "</td>";
                         echo "<td>" . $movie->yearReleased . "</td>";
+                        // implode is to convert an array of strings into a single string separated by a specified delimiter.
                         echo "<td>" . implode(", ", $movie->genres) . "</td>";
                         echo "</tr>";
                     }
