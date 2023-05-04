@@ -34,9 +34,9 @@ $movie3 = new Movie("Lord of the Ring", "Peter Jackson", 2001, ["Action", "Adven
             </thead>
             <tbody>
                 <?php
-
+                   // Create an array of movie objects
                     $movies = [$movie1, $movie2, $movie3];
-
+                    // Loop through each movie object in the array and output its properties as a table row
                     foreach ($movies as $movie) {
                         echo "<tr>";
                         echo "<td>" . $movie->title . "</td>";
